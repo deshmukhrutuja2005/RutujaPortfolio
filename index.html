@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Rutuja Deshmukh | Portfolio</title>
+    <!-- Stylesheet -->
     <link rel="stylesheet" href="stylesheet.css">
+    <!-- Boxicons Link for Icons -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+    
 </head>
 <body>
     <header class="header">
@@ -15,8 +17,12 @@
         <nav class="navbar">
             <a href="#home" class="nav-link active">Home</a>
             <a href="#about" class="nav-link">About</a>
+            <a href="#education" class="nav-link">Education</a>
             <a href="#skills" class="nav-link">Skills</a>
+            <a href="#certifications" class="nav-link">Certifications</a>
             <a href="#contact" class="nav-link">Contact</a>
+            <!-- Added Resume Button in Navbar -->
+            <a href="Rutuja.pdf" download class="nav-resume-btn"><i class='bx bxs-download'></i> Resume</a>
         </nav>
     </header>
 
@@ -26,13 +32,23 @@
             <h3>Hello, It's Me</h3>
             <h1>Rutuja Deshmukh</h1>
             <h3>And I'm a <span class="text"></span></h3>
-            <p>I'm a Final-year Engineering student. I specialize in frontend development, creating responsive, website design.</p>
+            <p>I'm a Final-year Engineering student. I specialize in frontend development, creating responsive and modern web designs.</p>
+            
+            <!-- Social Networks with direct contact links -->
             <div class="home-sci">
-                <a href="#"><i class='bx bxl-linkedin'></i></a>
-                <a href="#"><i class='bx bxl-github'></i></a>
-                <a href="#"><i class='bx bxl-whatsapp'></i></a>
+                <a href="https://www.linkedin.com/in/rutuja-deshmukh-15b832334?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" title="LinkedIn"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/Rutuja2728" target="_blank" title="GitHub"><i class='bx bxl-github'></i></a>
+                <a href="mailto:deshmukhrutuja42@gmail.com" title="Email"><i class='bx bx-envelope'></i></a>
+                <a href="tel:9359430509" title="Phone"><i class='bx bxs-phone'></i></a>
+            
             </div>
+            
             <a href="#about" class="btn-box">More About Me</a>
+        </div>
+        <div class="home-img">
+            <div class="img-box">
+                <img src="image.png" alt="Rutuja Deshmukh Profile Photo">
+            </div>
         </div>
     </section>
 
@@ -41,8 +57,45 @@
         <div class="about-content">
             <h2 class="heading">About <span>Me</span></h2>
             <h3>Final-Year Engineering Student</h3>
-            <p>Driven by a passion for technical problem-solving and user-centric frontend spaces, I focus on transforming complex requirements into elegant, high-performance code configurations. I have honed my expertise across standard responsive layout structures, modern styling properties, and dynamic asset management blueprints.</p>
-            <a href="#contact" class="btn-box">Hire Me</a>
+            <p>I am passionate about building clean, responsive, and user-friendly web applications. With strong skills in frontend development, Java, and web technologies, I love turning creative ideas into practical digital solutions. Dedicated and quick to learn, I am excited to apply my skills to real-world projects and grow as a developer.</p>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="section education" id="education">
+        <h2 class="heading">My <span>Education</span></h2>
+        <div class="education-grid">
+            
+            <div class="edu-card">
+                <div class="edu-header">
+                    <span class="edu-year"><i class='bx bxs-calendar'></i> 2023 - 2027</span>
+                    <span class="edu-badge">CGPA: 8.0</span>
+                </div>
+                <h3>Bachelor of Engineering (B.E.)</h3>
+                <h4>Information Technology</h4>
+                <p class="institution"><i class='bx bxs-institution'></i> Sipna College of Engineering and Technology, Amravati</p>
+            </div>
+
+            <div class="edu-card">
+                <div class="edu-header">
+                    <span class="edu-year"><i class='bx bxs-calendar'></i> 2021 - 2023</span>
+                    <span class="edu-badge">60.16%</span>
+                </div>
+                <h3>Higher Secondary Education</h3>
+                <h4>HSC (Science)</h4>
+                <p class="institution"><i class='bx bxs-institution'></i> Babasaheb Dhabekar Junior College</p>
+            </div>
+
+            <div class="edu-card">
+                <div class="edu-header">
+                    <span class="edu-year"><i class='bx bxs-calendar'></i> 2021</span>
+                    <span class="edu-badge">91.16%</span>
+                </div>
+                <h3>Secondary Education</h3>
+                <h4>SSC</h4>
+                <p class="institution"><i class='bx bxs-institution'></i> Babasaheb Dhabekar Vidyalaya</p>
+            </div>
+
         </div>
     </section>
 
@@ -53,25 +106,50 @@
             <div class="skills-column">
                 <h3 class="title">Technical Skills</h3>
                 <div class="skills-grid">
-                    <!-- Card 1 -->
                     <div class="skill-card">
                         <i class='bx bxl-html5 skill-icon'></i>
-                        <h3>HTML5</h3>
-                        <span class="skill-level"></span>
+                        <h3>HTML5 / CSS3</h3>
                     </div>
-                    <!-- Card 2 -->
-                    <div class="skill-card">
-                        <i class='bx bxl-css3 skill-icon'></i>
-                        <h3>CSS3 / Grid / Flexbox</h3>
-                        <span class="skill-level"></span>
-                    </div>
-                    <!-- Card 3 -->
                     <div class="skill-card">
                         <i class='bx bxl-javascript skill-icon'></i>
                         <h3>JavaScript (ES6+)</h3>
-                        <span class="skill-level"></span>
+                        
+                    </div>
+                    <div class="skill-card">
+                        <i class='bx bxl-java skill-icon'></i>
+                        <h3>Java</h3>
+                    </div>
+                    <div class="skill-card">
+                        <i class='bx bxl-python skill-icon'></i>
+                        <h3>Python</h3>
+                        
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section class="section certifications" id="certifications">
+        <h2 class="heading">My <span>Certifications</span></h2>
+        <div class="cert-grid">
+            <div class="cert-card">
+                <i class='bx bx-medal cert-icon'></i>
+                <h3>NPTEL Elite Certified - Programming in Java</h3>
+                <p>Score: 94% | IIT Kharagpur (Jul-Oct 2025)</p>
+                <a href="Nptel.png" target="_blank" class="cert-link"><i class='bx bx-show'></i> View Certificate</a>
+            </div>
+            <div class="cert-card">
+                <i class='bx bx-brain cert-icon'></i>
+                <h3>Getting Started with Artificial Intelligence</h3>
+                <p>Issued by IBM SkillsBuild (July 2024)</p>
+                <a href="Ibm.png" target="_blank" class="cert-link"><i class='bx bx-show'></i> View Certificate</a>
+            </div>
+            <div class="cert-card">
+                <i class='bx bx-award cert-icon'></i>
+                <h3>AI-ML Virtual Internship Certificate</h3>
+                <p>AICTE & EduSkills Foundation</p>
+                <a href="Aiml.png" target="_blank" class="cert-link"><i class='bx bx-show'></i> View Certificate</a>
             </div>
         </div>
     </section>
@@ -88,10 +166,36 @@
                 <input type="number" placeholder="Mobile Number">
                 <input type="text" placeholder="Email Subject">
             </div>
-            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
+            <textarea name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
             <input type="submit" value="Send Message" class="btn-box">
         </form>
     </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-container">
+            <!-- Col 1: Brand & Bio -->
+           <div class="footer-box">
+                <h3 class="footer-logo">Rutuja <span>Deshmukh</span></h3>
+                <div class="footer-socials">
+                    <a href="https://www.linkedin.com/in/rutuja-deshmukh-15b832334?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" title="LinkedIn"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://github.com/Rutuja2728" target="_blank" title="GitHub"><i class='bx bxl-github'></i></a>
+                    <a href="mailto:deshmukhrutuja42@gmail.com" title="Email"><i class='bx bx-envelope'></i></a>
+                </div>
+            </div>
+
+            <!-- Col 2: Contact Details -->
+            <div class="footer-box">
+                <h4>Contact Details</h4>
+                <div class="footer-info">
+                    <p><i class='bx bx-envelope'></i> deshmukhrutuja42@gmail.com</p>
+                    <p><i class='bx bxs-phone'></i> +91 9359430509</p>
+                    <p><i class='bx bxs-map'></i> Amravati, Maharashtra, India</p>
+                </div>
+            </div>
+        </div>
+
+    </footer>
 
     <script src="main.js"></script>
 </body>
